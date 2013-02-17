@@ -1,9 +1,7 @@
-<DOCTYPE html>
-<html>
-  <head>
-    <title>wrburgess github page</title>
-  </head>
-  <body>
-    This is the wrburgess github page
-  </body>
-</html>
+# Home Page
+
+## First Header
+
+Some text
+
+## Second Header
