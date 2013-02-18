@@ -40,12 +40,16 @@ strong {
   font-weight:bold;
 }
 
+em {
+  font-style: italic;
+}
+
 header {
   background-color: #2f3030;
   color: #dedede;
   font-family: Convergence, sans-serif;
   overflow: auto;
-  padding: 10px 0 10px 0;
+  padding: 10px 0 0 0;
 }
 
 header nav {
@@ -96,6 +100,10 @@ header nav li a {
   float: right;
 }
 
+#intro {
+  padding: 20px 0 10px 0;
+}
+
 .content {
   font-size: 1.1em;
   margin: 0 auto;
@@ -129,12 +137,17 @@ header nav li a {
   color: #990000;
 }
 
+#tools li strong {
+  display: inline-block;
+  width: 110px;
+}
+
 .timestamp {
   font-family: "Courier New", monospace;
 }
 
 footer {
-  margin: 0 auto;
+  margin: 30px auto 0 auto;
   width: 960px;
 }
 
