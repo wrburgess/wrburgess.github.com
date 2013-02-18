@@ -7,6 +7,12 @@ blockquote, q {quotes: none;}
 blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
 table {border-collapse: collapse; border-spacing: 0;}
 
+body {
+  color: #2f3030;
+  font-family: 'Libre Baskerville', 'Georgia', serif;
+  line-height: 1.8em;
+}
+
 h1, h2, h3 {
   color: #2f3030;
   font-family: Convergence, sans-serif;
@@ -15,19 +21,19 @@ h1, h2, h3 {
 h1 {
   font-size: 1.4em;
   font-weight: bold;
-  padding: 8px 0 8px 0;
+  padding: 10px 0 10px 0;
 }
 
 h2 {
   font-size: 1.2em;
   font-weight: bold;
-  padding: 6px 0 6px 0;
+  padding: 10px 0 10px 0;
 }
 
 h3 {
   font-size: 1.1em;
   font-weight: bold;
-  padding: 4px 0 4px 0;
+  padding: 6px 0 6px 0;
 }
 
 strong {
@@ -38,7 +44,13 @@ header {
   background-color: #2f3030;
   color: #dedede;
   font-family: Convergence, sans-serif;
+  overflow: auto;
   padding: 10px 0 10px 0;
+}
+
+header nav {
+  margin: 0 auto;
+  width: 960px;
 }
 
 header nav ul {
@@ -48,26 +60,46 @@ header nav ul {
 header nav li {
   display: inline;
   margin: 0 5px 0 5px;
+  overflow: auto;
 }
 
 header nav li a {
   color: #dedede;
 }
 
-.logo {
+#twitter {
 
 }
 
-.logo a {
+#github {
+
+}
+
+#linkedin {
+
+}
+
+#google {
+  padding-top: 1px;
+}
+
+#logo {
+  float: left;
+}
+
+#logo a {
   font-size: 2.0em;
   text-decoration: none;
 }
 
+#links {
+  float: right;
+}
+
 .content {
-  color: #2f3030;
-  line-height: 2.0em;
-  font-family: 'Libre Baskerville', serif;
   font-size: 1.1em;
+  margin: 0 auto;
+  width: 960px;
 }
 
 .content ul {
@@ -78,18 +110,35 @@ header nav li a {
   margin: 0 0 0 5px;
 }
 
-footer {
+.content a {
+  color: #266CC7;
+  text-decoration: none;
+}
+
+.content a:hover {
+  color: #266CC7;
+  text-decoration: underline;
+}
+
+.content a:visited {
+  color: #266CC7;
+  text-decoration: none;
+}
+
+#posts li a {
   color: #990000;
 }
 
-footer nav ul {
-
+.timestamp {
+  font-family: "Courier New", monospace;
 }
 
-footer nav li {
-
+footer {
+  margin: 0 auto;
+  width: 960px;
 }
 
 footer #copyright {
-  color: blue;
+  padding: 10px 0 0 0;
+  font-size: 0.8em;
 }
