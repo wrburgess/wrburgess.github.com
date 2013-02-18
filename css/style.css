@@ -30,6 +30,10 @@ h3 {
   padding: 4px 0 4px 0;
 }
 
+strong {
+  font-weight:bold;
+}
+
 header {
   background-color: #2f3030;
   color: #dedede;
@@ -59,9 +63,19 @@ header nav li a {
   text-decoration: none;
 }
 
-#content {
-  color: #e0e0e0;
+.content {
+  color: #2f3030;
+  line-height: 2.0em;
   font-family: 'Libre Baskerville', serif;
+  font-size: 1.1em;
+}
+
+.content ul {
+  margin: 0 0 0 10px;
+}
+
+.content li {
+  margin: 0 0 0 5px;
 }
 
 footer {

@@ -1,5 +1,4 @@
 ---
-permalink: permalink-test
 layout: post
 published: true
 title: Permalink Test
