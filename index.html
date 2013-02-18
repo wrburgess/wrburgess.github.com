@@ -4,13 +4,31 @@ title: wrburgess
 ---
 
 <div class="content">
-  <div class="related">
+  <div id="intro">
+    I'm Randy Burgess, a web/app developer in Chicago.
+  </div>
+  <ul>
+    <h2>Posts</h2>
+    {% for post in site.posts %}
+    <li>
+      <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <div id="tools">
+    <h2>Tools</h2>
     <ul>
-      {% for post in site.posts %}
-      <li>
-  <span>{{ post.date | date: "%B %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
+      <li>HTML, Haml, CSS, Sass</a></li>
+      <li><a href="http://ruby-lang.org">Ruby</a>, <a href="http://rubyonrails.org">Rails</a></li>
+      <li>JavaScript, <a href="http://emberjs.org">Ember.js</a>, <a href="http://backbonejs.org">Backbone.js</a></li>
+      <li>Others: .NET, PHP, <a href="http://drupal.org">Drupal</a>, <a href="http://wordpress.org">Wordpress</a>, Spree</li>
+    <ul>
+  </div>
+  <div id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="http://github.com/wrburgess/recipe-server">Recipe</a> - A new format for recipe presentation</li>
+      <li><a href="http://github.com/wrburgess/league-server">League</a> - A fantasy league management engine</li>
+    <ul>
   </div>
 </div>
