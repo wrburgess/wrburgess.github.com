@@ -100,8 +100,37 @@ header nav li a {
   float: right;
 }
 
+#intro-wrapper {
+  background-color: #dedede;
+}
+
 #intro {
-  padding: 20px 0 10px 0;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 20px 0 20px 0;
+  width: 960px;
+}
+
+#intro img {
+  float: left;
+  height: 90px;
+  margin: 0 10px 0 0;
+  width: 90px;
+}
+
+#intro a {
+  color: #266CC7;
+  text-decoration: none;
+}
+
+#intro a:hover {
+  color: #266CC7;
+  text-decoration: underline;
+}
+
+#intro a:visited {
+  color: #266CC7;
+  text-decoration: none;
 }
 
 .content {
@@ -133,6 +162,10 @@ header nav li a {
   text-decoration: none;
 }
 
+#posts {
+  clear: both;
+}
+
 #posts li a {
   color: #990000;
 }
@@ -152,6 +185,7 @@ footer {
 }
 
 footer #copyright {
-  padding: 10px 0 0 0;
   font-size: 0.8em;
+  padding: 10px 0 0 0;
+  text-align: right;
 }
