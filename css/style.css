@@ -207,3 +207,57 @@ footer #copyright {
   padding: 10px 0 0 0;
   text-align: right;
 }
+
+.gist {
+  ackground-color: #ffffff;
+  font-size: 14px;
+}
+
+.gist h1, h2, h3, h4 {
+  color: black;
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+}
+
+.gist h2 {
+  border-bottom: 1px solid #CCC;
+}
+
+.gist pre, .gist code, .gist kbd, .gist samp { 
+  color: #000; 
+  font-family: monospace, monospace; 
+  _font-family: 'courier new', monospace; 
+  font-size: 0.98em; 
+  margin: 0 2px;
+  padding: 0px 5px;
+  border: 1px solid #EAEAEA;
+  background-color: #F8F8F8;
+  border-radius: 3px;
+}
+
+.gist pre { 
+  white-space: pre; 
+  white-space: pre-wrap; 
+  word-wrap: break-word; 
+  background-color: #F8F8F8;
+  border: 1px solid #CCC;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+.gist h1{ font-size:2.5em; }
+.gist h2{ font-size:2em; }
+.gist h3{ font-size:1.5em; }
+.gist h4{ font-size:1.2em; }
+.gist h5{ font-size:1em; }
+.gist h6{ font-size:0.9em; }
+
+.gist {
+  font-family: consolas,monaco,courier,"courier new",fixed-width;
+}
+
+.gist .gist-file .gist-data {
+  padding: 20px 20px 20px 20px;
+}
