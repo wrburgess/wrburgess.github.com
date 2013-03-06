@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Randy Burgess</title>
+ <link href="http://wrburgess.com/atom.xml" rel="self"/>
+ <link href="http://wrburgess.com/"/>
+ <updated>2013-03-05T18:20:15-06:00</updated>
+ <id>http://tom.preston-werner.com/</id>
+ <author>
+   <name>Randy Burgess</name>
+   <email>wrburgess@wrburgess.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Quicker Title/Link Copy & Paste in Chrome</title>
+   <link href="http://wrburgess.com/blog/2013/03/05/title-link-copy-paste-in-chrome"/>
+   <updated>2013-03-05T00:00:00-06:00</updated>
+   <id>http://wrburgess.com/blog/2013/03/05/title-link-copy-paste-in-chrome</id>
+   <content type="html">&lt;p&gt;I tend to like grabbing Page titles and links from webpages for referencing them in blog posts later on. However, it usually requires a two-step process of doing the copy+paste on each string and flipping between the browser and text editor to get it done.&lt;/p&gt;
+
+&lt;p&gt;I found a new Chrome Extension called &lt;strong&gt;Create Link&lt;/strong&gt; that lets you take care of this multi-click process in the formatting of your choice (I like to use Markdown).&lt;/p&gt;
+
+&lt;h2&gt;Installation/Configure&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Visit the &lt;a href=&quot;https://chrome.google.com/webstore/detail/create-link/gcmghdmnkfdbncmnmlkkglmnnhagajbm?hl=en&quot;&gt;Create Link extension page&lt;/a&gt; and install&lt;/li&gt;
+&lt;li&gt;Click on the &lt;strong&gt;Create Link button&lt;/strong&gt; (top-right of your browser) and select &lt;em&gt;Configure&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Review the default Formats: &lt;em&gt;Plain text&lt;/em&gt;, &lt;em&gt;HTML&lt;/em&gt;, &lt;em&gt;mediaWiki&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;In my case, I added Markdown with &lt;code&gt;[%text%](%url%)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If you added a format, restart your browser&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h2&gt;Usage&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Find a page, select the title or text, right-click&lt;/li&gt;
+&lt;li&gt;Select the format of your choice&lt;/li&gt;
+&lt;li&gt;Paste in your text editor&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Done!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Easy HTML server on a Mac</title>
+   <link href="http://wrburgess.com/blog/2013/02/19/easy-html-server"/>
+   <updated>2013-02-19T00:00:00-06:00</updated>
+   <id>http://wrburgess.com/blog/2013/02/19/easy-html-server</id>
+   <content type="html">&lt;p&gt;While testing out some Ember.js apps on my local machine, I wanted to be able to run a simple web server without any ruby-esqe setup.&lt;/p&gt;
+
+&lt;p&gt;Enter Python's SimpleHTTPServer and a nice little gem called Heel. Checkout the gist below for the easy instructions.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/wrburgess/4992761.js&quot;&gt;//comment  
+&lt;/script&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Welcome to the new site</title>
+   <link href="http://wrburgess.com/blog/2013/02/18/first-post"/>
+   <updated>2013-02-18T00:00:00-06:00</updated>
+   <id>http://wrburgess.com/blog/2013/02/18/first-post</id>
+   <content type="html">&lt;p&gt;After &lt;a href=&quot;http://technorati.com/social-media/article/twitter-to-close-posterous-less-than/&quot;&gt;Posterous decided to call it quits&lt;/a&gt;, and while having little-to-no faith that Tumblr will keep the lights on long-term, I decided to build up a new wrburgess.com site utilizing &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&lt;/a&gt; and &lt;a href=&quot;http://www.github.com&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So far, so good. I'm going to see if I can find a way to remotely publish items like I did with Posterous/Tumblr, so all my pics of fancy food and cats should start showing up soon.&lt;/p&gt;
+
+&lt;p&gt;rb&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
