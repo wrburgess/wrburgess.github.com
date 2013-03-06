@@ -1,4 +1,8 @@
-# Quicker Title/Link Copy & Paste in Chrome
+---
+layout: post
+published: true
+title: Quicker Title/Link Copy & Paste in Chrome
+---
 
 I tend to like grabbing Page titles and links from webpages for referencing them in blog posts later on. However, it usually requires a two-step process of doing the copy+paste on each string and flipping between the browser and text editor to get it done.
 
