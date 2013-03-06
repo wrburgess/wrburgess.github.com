@@ -41,7 +41,7 @@ ol {
   margin: 0 0 0 40px;
 }
 
-ol li, ul li {
+.content ol li, .content ul li {
   margin: 5px 0 5px 5px;
 }
 
