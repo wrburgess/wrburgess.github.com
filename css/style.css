@@ -38,6 +38,7 @@ h3 {
 
 ol {
   list-style: decimal-leading-zero;
+  margin: 0 0 0 40px;
 }
 
 p {
