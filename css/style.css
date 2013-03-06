@@ -41,6 +41,10 @@ ol {
   margin: 0 0 0 40px;
 }
 
+ol li, ul li {
+  margin: 5px 0 5px 5px;
+}
+
 p {
   margin: 10px 0 10px 0;
 }
