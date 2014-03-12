@@ -204,6 +204,14 @@ header nav li a:hover {
   color: #990000;
 }
 
+#post ul li {
+  list-style-type: disc;
+}
+
+#post ul li ul li {
+  list-style-type: circle;
+}
+
 #tools li strong {
   display: inline-block;
   width: 110px;
