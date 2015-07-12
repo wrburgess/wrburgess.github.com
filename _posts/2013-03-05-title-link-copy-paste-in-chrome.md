@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: Quicker Title/Link Copy & Paste in Chrome
 ---
 
