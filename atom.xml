@@ -4,7 +4,7 @@ layout: nil
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>Randy Burgess</title>
  <link href="http://wrburgess.com/atom.xml" rel="self"/>
  <link href="http://wrburgess.com/"/>
@@ -12,7 +12,7 @@ layout: nil
  <id>http://tom.preston-werner.com/</id>
  <author>
    <name>Randy Burgess</name>
-   <email>wrburgess@wrburgess.com</email>
+   <email>wrburgess@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
@@ -24,5 +24,5 @@ layout: nil
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
- 
+
 </feed>
